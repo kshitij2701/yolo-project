@@ -1,0 +1,23 @@
+[
+  "bus_stop",
+  "do_not_enter",
+  "do_not_stop",
+  "do_not_turn_l",
+  "do_not_turn_r",
+  "do_not_u _turn",
+  "enter_left_lane",
+  "green _light",
+  "left _right_lane",
+  "no_parking",
+  "parking",
+  "ped_crossing",
+  "ped_zebra_cross",
+  "railway_crossing",
+  "red _light",
+  "stop",
+  "t_intersection_l",
+  "traffic_light",
+  "u turn",
+  "warning",
+  "yellow_light"
+]

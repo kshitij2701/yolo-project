@@ -1,0 +1,22 @@
+/* DeveloperInfo.css */
+
+.developer-info {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(209, 207, 207, 0.9); /* Use the same overall background color with transparency */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .developer-name {
+    font-weight: bold;
+    color: #333333;
+  }
+  
+  .developer-info p {
+    margin: 0;
+    font-size: 14px;
+  }
+  

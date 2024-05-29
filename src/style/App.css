@@ -1,0 +1,107 @@
+:root {
+  --white: black;
+  --purple: #2d928b;
+}
+
+.spaceid {
+  margin-bottom: 8px; /* Adjust the value as needed */
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header-info {
+  background-color: white;
+  color: black;
+  padding: 60px 20px 20px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 70px;
+}
+
+.header-info p {
+  margin: 5px 0;
+}
+
+.code {
+  padding: 5px;
+  color: #b4fb4a;
+  background-color: #0b6d25;
+  border-radius: 5px;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 20px;
+}
+
+.content {
+  position: relative;
+  width: 100%;
+  max-width: 720px;
+}
+
+.content > img,
+.content > video {
+  display: none;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content > canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+button {
+  text-decoration: none;
+  color: white;
+  background-color: #13a934;
+  border: 2px solid black;
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+  color: black;
+  background-color: #83cd8e;
+  border: 2px solid black;
+}
+
+.footer {
+  background-color: #9e9c9f;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.footer p {
+  margin: 5px 0;
+}
+
+.Loader {
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 20px;
+}

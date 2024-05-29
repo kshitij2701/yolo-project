@@ -1,0 +1,34 @@
+/* Loader.css */
+
+.wrapper { /* Semi-transparent background */
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spinner {
+  width: 30px; /* Increased spinner size */
+  height: 30px; /* Increased spinner size */
+  border-radius: 50%;
+  border: 6px solid rgba(65, 62, 62, 0.7); /* White border with transparency */
+  border-top-color: #333; /* Dark color for spinner */
+  animation: rotate 1.5s linear infinite; /* Simplified animation */
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.wrapper > p {
+  margin-top: 5px; /* Added some spacing between spinner and text */
+  margin-left: 15px;
+  color: #110f0f; /* White color for text */
+  font-size: 18px; /* Increased font size */
+  font-weight: bold; /* Added bold font weight */
+}
